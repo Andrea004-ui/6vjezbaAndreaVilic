@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*CSS Document*/
+
+p{
+	color:black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia,, "serif";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	width: 1400px;
+	background-color: cadetblue;
+	opacity: 0.9;
+	padding: 20px
+	text-align: center
+}
+body{
+	background-color: lightblue;
+	font-family: "Arima", sans-serif;
+} 
+.for-beginning li{
+	display: inline;
+}
+span{
+			font-weight:bold;
+			color:black;
+			font-style: italic;
+			font-family: Courier New;
+			text-shadow: 2px 2px grey;
+			}
+			img{
+			float: right;
+	}
+ol{
+	list-style-type: upper-roman;
+}
+form{
+	font-family:Comic sans MS;
+}
+input{
+	border:1px solid gray;
+}
+button:active {
+    background-color: cadetblue;
+}
+a:hover {
+    color: #D6A3B2;
+}
+input:focus {
+	outline: none;
+    border: 3px solid cadetblue;
+}
+button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+iframe{
+position: relative;
+
+width:580px;
+height:400px;
+border:1px solid gray;
+border-radius:10px;
+}
+
+button:hover {
+    background-color: #D6A3B2;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+input[type=text]{
+	background: cadetblue;
+	
+}
+@media (max-width: 799px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+}
+img {
+    float: left; 
+    margin-right: 20px; 
+	display:block;
+}
+
+
+/* Stiliziranje lista */
+.video-list {
+  list-style-position: inside; /* Postavlja brojeve unutar lista */
+  padding-left: 0; /* Uklanja razmak lijevo od liste */
+}
+
+/* Stiliziranje stavki liste */
+.video-list li {
+  margin-bottom: 20px; /* Razmak između videa */
+}
+
+/* Stiliziranje object tagova za video */
+.video-list object {
+  display: block; /* Blok element za poravnavanje */
+  margin-left: 0; /* Poravnava s lijeva */
+}
